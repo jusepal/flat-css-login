@@ -14,17 +14,26 @@
 <div class="login-page">
   <div class="form">
     <form class="register-form">
-      <input type="text" placeholder="username"/>
+    <!--  <input type="text" placeholder="username"/>
       <input type="password" placeholder="password"/>
       <input type="text" placeholder="repeat password"/>
       <button>create</button>
-      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    <p class="message">Already registered? <a href="#">Sign In</a></p> -->
     </form>
     <form class="login-form">
       <input type="text" placeholder="username"/>
       <input type="password" placeholder="password"/>
       <button>login</button>
-      <p class="message">Not yet registered? <a href="#">Create an account</a></p>
+  <!-- <p class="message">Not yet registered? <a href="#">Create an account</a></p> -->
+      <p>
+<center>
+ &copy; <span id="copyYear"></span> | All Rights Reserved.
+</center>
+</p>
+<script type="text/javascript">
+  var currentYear = new Date().getFullYear();
+  document.getElementById("copyYear").innerHTML = currentYear;
+</script>
     </form>
   </div>
 </div>
